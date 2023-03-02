@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            width: 500px;
+        }
+        p {
+            font-size: 18px;
+        }
+        .inline {
+            display: flex;
+            gap: 50px;
+        }
+        .inputs {
+            width: 100%;
+        }
+        select {
+            width: 100%;
+            height: 30px;
+        }
+        input {
+            height: 30px;
+            width: 100%;
+            border-color: rgb(203, 203, 203);
+        }
+        .selectors {
+            display: flex;
+            gap: 30px;
+        }
+        button {
+            font-size: 15px;
+            color: white;
+            margin-top: 30px;
+            height: 40px;
+            background-color: rgb(28, 28, 28);
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <div class="inline">
+            <div class="inputs">
+                <p>Название фильма: </p>
+                <input type="text" placeholder="Название фильма">
+            </div>
+            
+        </div>
+        
+        <div class="inline">
+            <div class="inputs">
+                <p>Кинотеатры: </p>
+                <select name="" id="">
+                    <option value="">Chaplin</option>
+                    <option value="">Mega</option>
+                    <option value="">Forum</option>
+                </select>
+            </div>
+            <div class="inputs">
+                <p>Время сеанса: </p>
+                <div class="selectors">
+                    <select name="" id="">
+                        <option value="">21</option>
+                        <option value="">22</option>
+                        <option value="">23</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">30</option>
+                        <option value="">00</option>
+                        <option value="">15</option>
+                    </select>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <button>Поиск фильма</button>
+    </form>
+</body>
+</html>
