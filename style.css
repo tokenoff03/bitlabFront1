@@ -1,0 +1,467 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    
+    background-color: #4C75A3;
+}
+
+header .container p{
+    color: white;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+header .container {
+    padding: 5px;
+    padding-left: 10px;
+    display: flex;
+    gap: 150px;
+}
+
+.inputHeader {
+    position: relative;;
+}
+.inputHeader svg {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+header .container input {
+    width: 170px;
+    height: 25px;
+    color: white;
+    padding-left: 30px;
+    background-color: rgb(44,72,105);
+    border: 1px solid rgb(44,72,105);
+    border-radius: 20px;
+    outline: none;
+}
+
+section {
+    background-color: rgb(231,234,237);
+    min-height: 1000px;
+}
+
+section .container {
+    padding-top: 20px;
+    display: flex;
+    gap: 100px;
+}
+.sideBar ul {
+    color:rgb(75 94 147);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0;
+    font-weight: 400 !important;
+    font-size: 1em;
+    
+}
+
+.sideBar a {
+    color:rgb(75 94 147);
+}
+.sideBar ul li {
+    cursor: pointer;
+}
+
+.avatarBlock img {
+    width: 250px;
+}
+
+.avatarBlock {
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    background-color: white;
+    padding: 13px;
+    gap: 10px;
+    
+}
+
+.avatarBlock button {
+    background-color: rgb(231,234,237);
+    color:rgb(75 94 147);
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.friends {
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.friendsImg  img{
+    width: 47px;
+}
+
+.friendsImg {
+    color:rgb(75 94 147);
+    font-size: 0.9em;
+    display: flex;
+    gap: 25px;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.friendsAvatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+
+.friendsAvatar p{
+    cursor: pointer;
+}
+.blockTitle {
+    font-size: 0.9em;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+.silverText {
+    color: rgb(112, 112, 112);
+    
+}
+
+.main {
+    display: flex;
+    gap: 20px;
+}
+
+.rightMain {
+    width: 600px;
+}
+
+.about {
+    background-color: white;
+    padding: 13px;
+    border-radius: 5px;
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+}
+.name {
+    font-size: 1.5em;
+    margin-bottom: 3px;
+    
+}
+
+.userInfo {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.info {
+    display: flex;
+    gap: 40px;
+}
+
+.info p:first-child{
+    width: 200px;
+}
+
+.info p:nth-child(n+2){
+    color:rgb(75 94 147);
+}
+
+.selectors {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.selectors p:first-child{
+    color: rgb(60,64,113);
+    font-size: 1.5rem;
+}
+
+.selectors p:nth-child(n+2){
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+
+.selectors div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photos {
+    margin-top: 20px;
+    background-color: white;
+    padding: 13px;
+    border-radius: 5px;
+}
+
+.photos .blockTitle {
+    margin: 0;
+    padding: 0;
+}
+.images {
+    margin-top: 13px;
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}
+
+.images img {
+    cursor: pointer;
+    width: 130px;
+}
+
+.post {
+    margin-top: 20px;
+    background-color: white;
+    padding: 13px;
+    border-radius: 5px;
+}
+
+.poster {
+    display: flex;
+    gap: 15px;
+}
+
+.postInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.postInfo p:first-child{
+    font-weight: 600;
+    margin-top: 3px;
+    color: rgb(21, 51, 100)
+}
+
+.postInfo p:last-child {
+    font-size: 0.9em;
+}
+
+.post img {
+    width: 50px;
+    border-radius: 50%;
+}
+.friendsContainer {
+    width: 615px;
+    background-color: white;
+}
+
+.aboutFriends {
+    display: flex;
+    padding: 13px;
+    justify-content: space-between;
+    background-color: rgb(250,250,255);
+}
+
+.aboutFriendsInfo {
+    display: flex;
+    gap: 30px;
+}
+
+.aboutFriendsInfo p{
+    cursor: pointer;
+}
+.leftMainFriends {
+    
+    background-color: white;
+}
+
+
+ hr {
+    border: 1px solid rgb(233, 233, 233);
+}
+.aboutFriendsInfo span {
+    margin-left: 5px;
+}
+
+.aboutFriends button {
+    background-color: #4C75A3;
+    color: white;
+    border: 1px solid #4C75A3;
+    border-radius: 5px;
+    width: 126px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.searchFriends {
+    position: relative;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.searchFriends input {
+    outline: none;
+    width: 94%;
+    padding-left: 37px;
+    border: none;
+    font-size: 15px;
+
+}
+.searchFriends svg {
+    position: absolute;
+    left: 12px;
+}
+
+.friendsBlock {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+}
+
+.friendProfile {
+    display: flex;
+    gap: 15px;
+}
+
+.friendsInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.circle{
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 75px;
+    height: 75px;
+  }
+
+.circle img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.friendsBlock a {
+    text-decoration: none;
+    color: rgb(66, 113, 163);
+    font-size: 0.9em;
+}
+
+.friendName {
+    cursor: pointer;
+    color: rgb(48, 94, 166);
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+.friendsInfo .silverText {
+    font-size: 0.9em;
+}
+
+.moreInfo {
+    font-weight: 600;
+    font-size: 1.1em;
+    color: rgb(66, 113, 163);
+    cursor: pointer;
+    height: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.rightMainFriends {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 272px;
+}
+
+.rightSideBar {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    
+}
+
+.rightSideBar ul {
+    color:rgb(75 94 147);
+    display: flex;
+    flex-direction: column;
+    
+    font-size: 0.95em;
+    
+}
+
+.rightSideBar ul li {
+    padding-left: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.rightSideBar ul li:hover {
+    cursor: pointer;
+    background-color: rgb(237,237,253);
+    color: black;
+}
+
+.rightSideBar ul li span{
+    position: absolute;
+    font-size: 0.5em;
+    left: 115px;
+    top: 16px;
+}
+
+.mainFriends {
+    display: flex;
+    gap: 13px;
+}
+
+.maybeFriends {
+    background-color: white;
+    border-radius: 5px;
+    padding: 13px;
+}
+
+.maybeFriends .friendsBlock {
+    margin-top: 17px;
+    padding: 0;
+    justify-content:baseline;
+}
+
+.maybeFriends .circle {
+    width: 55px;
+    height: 55px;
+}
+
+.maybeFriends .title {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    color: rgb(93, 93, 93);
+}
+.maybeFriends .friendName {
+    font-weight: 400;
+}
+
+.mainFriends a, .mainFriends .silverText {
+    font-size: 0.8em;
+}
