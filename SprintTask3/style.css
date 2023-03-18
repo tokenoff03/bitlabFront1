@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    width: 1120px;
+    justify-content: space-between;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+    
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+input {
+    height: 100%;
+    border: 1px solid rgb(191, 192, 193);
+    outline: none;
+    width: 150px;
+    padding-left: 15px;
+}
+
+.inputBlock {
+    margin-right: 98px;
+}
+.inline {
+    
+    position: relative;
+    height: 30px;
+}
+select {
+    position: absolute;
+    height: 112%;
+    outline: none;
+    left: 180px;
+    padding: 5px;
+    border: 1px solid rgb(191, 192, 193);
+}
+
+.exchangeMoney p {
+    font-weight: 600;
+}
+
+.money {
+    width: 250px;
+    height: 30px;
+    background-color: rgb(233,236,239);
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+

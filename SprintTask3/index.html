@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="inputBlock">
+            <p>
+                Введите сумму: 
+            </p>
+            <div class="inline">
+                <input type="number" >
+                <select name="" id="currency">
+                    <option value="KZT">KZT</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </div>
+            
+        </div>
+
+        <div class="exchangeMoney">
+            <p>
+                KZT (tenge)
+            </p>
+            <div class="money" id="kzt">
+                -
+            </div>
+        </div>
+
+        <div class="exchangeMoney">
+            <p>
+                USD (dollar)
+            </p>
+            <div class="money" id="usd">
+                -
+            </div>
+        </div>
+
+        <div class="exchangeMoney">
+            <p>
+                EUR (euro)
+            </p>
+            <div class="money" id="eur">
+                -
+            </div>
+        </div>
+    </div>
+    <script src="./scrypt.js"></script>
+</body>
+</html>
